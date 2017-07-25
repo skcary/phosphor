@@ -2,8 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/pages/home'
 import collection from '@/pages/collection'
-import user from '@/pages/user'
-import login from '@/pages/login'
 import search from '@/pages/search'
 import rank from '@/pages/rank'
 import popular from '@/pages/popular'
@@ -46,16 +44,6 @@ export default new Router({
       path: '/collection',
       name: 'collection',
       component: collection
-    },
-    {
-      path: '/user',
-      name: 'user',
-      component: user
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: login
     },
     {
       path: '/search',

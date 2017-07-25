@@ -8,9 +8,6 @@
             <div class="nav-item">
                 <router-link to="/collection">排行榜</router-link>
             </div>
-            <div class="nav-item">
-                <router-link to="/user">我的</router-link>
-            </div>
         </div>
         <div class="header-icon">
             <router-link to="/search">
